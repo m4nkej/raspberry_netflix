@@ -1,5 +1,5 @@
 # raspberry_netflix
-
+```
 sudo -i
 dpkg -r chromium-browser
 rm -Rf /etc/chromium-browser
@@ -15,3 +15,4 @@ sudo cp libwidevinecdm.so /usr/lib/chromium-browser/libwidevinecdm.so
 sudo cp libpepflashplayer.so /usr/lib/chromium-browser/libpepflashplayer.so
 sudo chmod 755 /usr/lib/chromium-browser/libwidevine*
 sudo chmod 755 /usr/lib/chromium-browser/libpepflashplayer.so
+```
