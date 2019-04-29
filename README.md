@@ -1,6 +1,7 @@
 # raspberry_netflix
 ```
 sudo -i
+apt-get remove chromium-browser
 dpkg -r chromium-browser
 rm -Rf /etc/chromium-browser
 rm -Rf ~/.config/chromium
